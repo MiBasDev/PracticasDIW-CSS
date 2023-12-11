@@ -1,0 +1,66 @@
+p:first-child {
+    background-color: gray;
+}
+
+p:last-child {
+    background-color: red;
+}
+
+div:first-of-type {
+    background-color: green;
+}
+
+div:last-of-type {
+    background-color: yellow;
+}
+
+p:only-child {
+    background-color: purple;
+}
+
+p:only-of-type {
+    color: white;
+}
+
+div:empty {
+    width: 40px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+p:nth-child(2) {
+    font-weight: bold;
+}
+
+p:nth-last-child(2) {
+    font-weight: bold;
+}
+
+p:nth-of-type(3) {
+    font-style: italic;
+}
+
+p:nth-last-of-type(3) {
+    font-style: italic;
+}
+
+:not(p) {
+    background-color: aquamarine;
+}
+
+:root {
+    padding: 10px;
+}
+
+input:enabled {
+    background-color: red;
+}
+
+input:disabled {
+    background-color: grey;
+}
+
+input:checked {
+    width: 10px;
+    height: 10px;
+}

@@ -1,0 +1,35 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: gray;
+}
+
+nav a {
+    text-decoration: none;
+    font-style: italic;
+}
+
+h2, h3 {
+    font-size: 18px;
+    color: aqua;
+}
+
+h3 {
+    background-color: red;
+}
+
+.par1 {
+    margin-left: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article > p {
+    margin-left: 20px;
+}
+
+#par2 {
+    background-color: brown;
+    padding: 10px;
+}

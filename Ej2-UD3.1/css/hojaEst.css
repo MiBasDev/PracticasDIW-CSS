@@ -1,0 +1,13 @@
+body {
+    border: 10px solid blue;
+    color: red;
+}
+
+div {
+    font: Verdana;
+    opacity: 0.5;
+}
+
+h1 {
+    border: inherit;
+}

@@ -1,0 +1,19 @@
+p::first-line {
+    color:red;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+h1::before {
+    content: "START.- ";
+}
+
+h1::after {
+    content: " -.END";
+}
+
+::marker {
+    color: blue;
+}

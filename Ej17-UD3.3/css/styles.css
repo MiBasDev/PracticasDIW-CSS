@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #ccc;
+}
+
+.caja1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    background-color: red;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.caja2 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    background-color: blue;
+    top: 50px;
+    left: 50px;
+    z-index: 2;
+}
+
+.caja3 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    color: white;
+    background-color: green;
+    top: 80px;
+    left: 80px;
+    z-index: 3;
+    visibility: hidden;
+}

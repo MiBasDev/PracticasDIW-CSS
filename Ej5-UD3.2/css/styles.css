@@ -1,0 +1,18 @@
+div {
+    padding: 10px;
+    background-color: gray;
+    margin: 2px;
+}
+
+#div1 {
+    font-weight: bold;
+}
+
+.class1 {
+    color: red;
+    padding-bottom: 30px;
+}
+
+#div2 {
+    margin-top: 10px;
+}

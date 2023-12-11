@@ -1,0 +1,144 @@
+:root {
+    --height-widget: 120px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+a {
+    color: white;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contenedor-main {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+}
+
+#thumb {
+    width: 100%;
+}
+
+main article h2 {
+    margin: 20px 0;
+}
+
+main article p {
+    line-height: 30px;
+    margin-bottom: 20px;
+}
+
+aside {
+    background-color: #537dca;
+    width: 30%;
+    padding: 20px;
+    color: white;
+}
+
+.widgets {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.widget {
+    display: flex;
+    width: 100%;
+    height: var(--height-widget);
+    background-color: #4264a2;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, .2);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: white;
+    margin-bottom: 100px;
+}
+
+footer ul li {
+    margin-left: 20px;
+}
+
+@media screen and (max-width:800px) {
+    .contenedor-main {
+        flex-direction: column;
+    }
+
+    aside {
+        width: 100%;
+        height: 100%;
+    }
+
+    .widgets {
+        flex-direction: row;
+        gap: 20%;
+    }
+
+    .widget {
+        height: 130px;
+    }
+
+    footer {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 20px;
+        font-size: 14px;
+    }
+}

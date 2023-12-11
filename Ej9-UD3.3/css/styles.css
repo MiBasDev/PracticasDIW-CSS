@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(192, 221, 238);
+}
+
+.TNR {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ul {
+    padding: 12px;
+    line-height: 2em;
+}
+
+li::marker {
+    color: blue;
+}
+
+#helv {
+    font-family: Helvetica;
+}
+
+#arial {
+    font-family: Arial;
+}
+
+#span1 {
+font-size: 28px;
+}
+
+#span2 {
+    font-style: italic;
+}

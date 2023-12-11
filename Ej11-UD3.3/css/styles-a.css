@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2) format('woff2');
+  }
+  
+  .fuente{
+    font-family: 'Roboto', sans-serif; 
+  }

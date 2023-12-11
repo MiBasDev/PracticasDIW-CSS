@@ -1,0 +1,28 @@
+.container1,
+.container2 {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.container1 {
+    background-color: green;
+}
+
+.container2 {
+    background-color: rgba(128, 128, 128, 0.4);
+}
+
+.container1:hover {
+    transform: rotate(360deg) scale(2);
+    background-color: red;
+    transition-duration: 2s;
+}
+
+.container2:hover {
+    transform: translateX(100px) scale(1.5);
+    background-color: pink;
+    transition-duration: 2s;
+}

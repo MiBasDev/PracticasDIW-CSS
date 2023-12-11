@@ -1,0 +1,25 @@
+body {
+    padding: 10%;
+}
+
+.f {
+    width: 30%;
+    height: 100px;
+    background-color: cyan;
+    float: left;
+    margin: 10px;
+    text-align: center;
+}
+
+.c {
+    width: 30%;
+    height: 100px;
+    background-color: gray;
+    clear: both;
+    margin: 20px 10px;
+    text-align: center;
+}
+
+p  {
+    margin-top: 40px;
+}

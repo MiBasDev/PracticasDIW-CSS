@@ -1,0 +1,34 @@
+@media all {
+    p {
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    main {
+        text-align: left;
+    }
+}
+
+@media screen {
+    #img {
+         text-align: center;
+    }
+}
+
+@media print {
+    header {
+        visibility: hidden;
+    }
+
+    footer {
+        visibility: hidden;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    aside {
+        visibility: hidden;
+    }
+}
